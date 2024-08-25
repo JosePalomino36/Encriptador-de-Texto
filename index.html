@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-col">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto José Palomino</title>
+    <link rel="stylesheet" href="encriptador.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img class="alura" src="./img/images.jpg" type="logo" alt="" id="logo">
+        <h1 class="titulo-pagina">¡Hola! bienvenido al encriptador de texto</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="encriptar">
+                <textarea name="texto" class="texto" id="texto" cols="30" rows="10"
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="terminos">
+                <p class="p">Solo Letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar
+                </button>
+                <button type="button" class="btn-desencriptar" onclick="desencriptar()">Desencriptar
+                </button>
+            </div>
+            <div class="encriptado">
+            <img src="img/Toys.jpg" alt="" id="toys">
+                <div class="mensaje-encriptado" id="mensaje-encriptado">
+                <h2 id="titulo-mensaje">Ningún Mensaje Encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>-->
+                </div>
+            </div>
+        </div>
+    <script src="encriptador.js"></script>
+    <footer>
+        <div class="pie-de-pagina"> 
+            <p> Desarrollado por José Palomino para Alura Latam. Año 2024</p>
+            <div class="redes">
+            <a class="enlaces-redes" href="https://www.linkedin.com/in/jos%C3%A9-leonardo-palomino-jerez-8b6798225/">
+                <img src="./img/linkedin.png"></a>
+            <a class="enlaces-redes" href="https://github.com/JosePalomino36?tab=repositories">
+                <img src="./img/github.png">
+            </div>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
